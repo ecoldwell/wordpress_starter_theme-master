@@ -1,0 +1,75 @@
+.sidebar {
+	display:none;
+}
+
+
+
+form {
+	position: relative;
+	left: 15%;
+
+}
+
+.wpcf7-form-control{
+	width: 400px;
+	padding: 9px;
+	margin-top: 10px;
+	border: none;
+	border-bottom: 2px solid goldenrod;
+}
+
+.wpcf7-form-control.wpcf7-textarea {
+	border: 2px solid goldenrod;
+}
+
+.wpcf7-form-control.wpcf7-submit {
+	background: none;
+	border: 2px solid goldenrod;
+}
+
+.wpcf7-submit:hover {
+	background: goldenrod;
+	padding: 10px;
+}
+
+input {
+	border-bottom: 2px solid goldenrod;
+
+	background: none;
+}
+
+@media (max-width: 520px) {
+	form {
+		left:13%;
+	}
+}
+
+@media (max-width: 504px) {
+	form {
+		left: 7%;
+	}
+}
+
+@media (max-width: 475px) {
+	form {
+		left: 4%;
+	}
+}
+
+@media (max-width: 450px) {
+	form {
+		left: 0%;
+	}
+}
+
+@media (max-width: 420px) {
+	.wpcf7-form-control {
+		width: 300px;
+	}
+}
+
+@media (max-width: 350px) {
+	.wpcf7-form-control {
+		width: 200px;
+	}
+}

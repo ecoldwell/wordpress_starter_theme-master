@@ -1,0 +1,89 @@
+.aboutContent {
+	// background-image: linear-gradient( 0deg, rgba(255,255,255,0.9), rgba(56,58,59,0.3) );
+
+	    width: 100%;
+	    padding: 20px;
+		
+	
+		
+
+
+
+
+	
+
+
+}
+
+.textBox {
+	font-weight: 400;
+	font-family: Roboto ,sans-serif;
+	font-weight: lighter;
+	font-size: 1em;
+	color: #383a3b;
+	max-width: 71%;
+	background-color: snow;
+	margin: 0 auto;
+	padding: 3%;
+	line-height: 1.6;
+	box-shadow: 1px 1px 1px rgba(56, 58, 59, 0.3);
+}
+
+
+.aboutContactImage {
+	width: 100%;
+	position: relative;
+	margin-bottom: 13%;
+
+		.imageBox {
+		   width: 90%;
+		   padding-bottom: 50%;
+		   background-color: rgba(218,165,32,.3);
+		   position: relative;
+		   left: 0;
+		   top: 0;
+		}
+			// background: 
+	
+	img {
+		// max-width: 90%;
+		position: absolute;
+		top: 6%;
+		left: 4%;
+		width: 90%;
+    	max-height: 575px;
+
+
+	}
+}
+
+.aboutTitle {
+    position: relative;
+    left: 12%;
+    margin: 30px;
+    display: inline-block;
+    padding: 15px;
+    background: white;
+    box-shadow: 1px 1px 1px rgba(56, 58, 59, 0.3);
+}
+
+
+@media (max-width: 1150px) {
+	.aboutContactImage {
+		margin-bottom: 12%;
+	}
+}
+
+@media (max-width: 1080px) {
+	.aboutContactImage {
+		margin-bottom: 15%;
+	}
+}
+
+@media (max-width: 930px) {
+	.aboutContactImage {
+		margin-bottom: 20%;
+	}
+}
+
+

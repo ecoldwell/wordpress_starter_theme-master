@@ -1,0 +1,35 @@
+.blogContent {
+
+	margin: 0 auto !important;
+	margin-top: 30px;
+	min-height: 100%; 
+	padding-bottom: 3%;
+}
+
+// .blogContent p {
+// 	display:none;
+// }
+
+.entry-title {
+	display: none;
+}
+
+
+ul.post-images{
+	list-style: none;
+	padding: 0;
+	margin:0;
+	li {
+		padding:0;
+		margin: 0;
+		margin-bottom: 10px;
+		box-shadow: 1px 1px 1px rgba(56,58,58,0.6);
+	}
+	a{
+		padding: 0;
+		margin: 0;
+		img{
+			display: block;
+		}
+	}
+}

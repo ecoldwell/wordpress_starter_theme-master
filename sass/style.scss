@@ -1,0 +1,94 @@
+/*!
+* Theme Name: HackerYou Starter Theme
+* Theme URI: http://hackeryou.com;
+* Description: Starter theme for building any website. Created by HackerYou. * Rename this to your own theme page.
+* Version: 1.0
+* Author: HackerYou
+* Author URI: http://hackeryou.com
+*/
+
+@import 'typography';
+@import 'variables';
+@import 'normalize';
+@import 'navigation';
+@import 'sidebar';
+@import 'comments';
+@import 'footer';
+@import 'header';
+@import 'blog';
+@import 'contact';
+@import 'about';
+@import 'fancybox';
+/*
+====================================
+Default Styling
+====================================
+*/
+
+// html {
+
+// 	background-image: url("../images/linen/linen.png");
+// }
+
+img {
+	max-width: 100%;
+}
+
+
+.main {
+	background-image: linear-gradient( 0deg, rgba(255,255,255,0.3), rgba(255, 255,255,0.3) ), url('images/congruent_pentagon/congruent_pentagon.png');
+	height: auto;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.aboutContainer {
+	margin: 0 auto;
+    max-width: 1200px;
+}
+
+.content {
+	float: left;
+	width: 65%;
+	margin-right: 5%;
+}
+
+.full {
+	width: 100%;
+}
+
+
+.bg-video {
+     
+     	  position: absolute;
+          top: 50%;
+          left: 50%;
+          min-width: 100%;
+          min-height: 100%;
+          z-index: -1;
+          transform: translate(-50%, -50%);
+
+}
+
+
+
+@media (max-width: 380px) {
+	
+	header .container {
+		flex-direction: column;
+	}
+
+
+	.bg-video {
+		    height: 100%;
+		    position: fixed;
+	
+	}
+
+
+}
+
+
