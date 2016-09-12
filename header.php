@@ -7,12 +7,12 @@
   <title><?php  wp_title('|', true, 'right'); ?></title>
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,900|Montserrat|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-  <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   
-<!--   <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+<!--   <script src="https://unpkg.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
  -->
- <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+ <script src="https://unpkg.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
   <!-- stylesheets should be enqueued in functions.php -->
   <?php wp_head(); ?>
 </head>
